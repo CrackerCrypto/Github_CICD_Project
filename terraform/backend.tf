@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "gitcicdproject"
+    bucket = "gitcicdprojectbuket01"
     key    = "terraform/backend"
     region = "us-east-1"    
   }
