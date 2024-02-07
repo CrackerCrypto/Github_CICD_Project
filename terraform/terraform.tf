@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket = "gitcicdprojectbuket01"
-    key = ".terraform/terraform.tfstate"
+    key = "terraform.tfstate"
     region = "us-east-1"
   }
   required_version = "~> 1.7.2"
