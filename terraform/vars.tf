@@ -2,7 +2,7 @@
 variable "REGION" {
   default = "us-east-1"
 }
-
+# aws zones
 variable "ZONE1" {
   default = "us-east-1a"
 }
