@@ -1,4 +1,5 @@
 # aws region as variable
+#
 variable "REGION" {
   default = "us-east-1"
 }
